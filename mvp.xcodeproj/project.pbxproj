@@ -14,6 +14,10 @@
 		CE200A8B1CF5A66700B23601 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE200A891CF5A66700B23601 /* LaunchScreen.storyboard */; };
 		CE200A961CF5A66700B23601 /* mvpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE200A951CF5A66700B23601 /* mvpTests.swift */; };
 		CE200AA11CF5A66700B23601 /* mvpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE200AA01CF5A66700B23601 /* mvpUITests.swift */; };
+		CE200AAF1CF5D2D100B23601 /* badass.gif in Resources */ = {isa = PBXBuildFile; fileRef = CE200AAE1CF5D2D100B23601 /* badass.gif */; };
+		CE200AB11CF5D2D900B23601 /* angry.gif in Resources */ = {isa = PBXBuildFile; fileRef = CE200AB01CF5D2D900B23601 /* angry.gif */; };
+		CE200AB71CF5DA0400B23601 /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE200AB61CF5DA0300B23601 /* UIImage+Gif.swift */; };
+		CE200AB91CF5F06800B23601 /* KDCircularProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE200AB81CF5F06800B23601 /* KDCircularProgress.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		CE200A9C1CF5A66700B23601 /* mvpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mvpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE200AA01CF5A66700B23601 /* mvpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mvpUITests.swift; sourceTree = "<group>"; };
 		CE200AA21CF5A66700B23601 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE200AAE1CF5D2D100B23601 /* badass.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = badass.gif; sourceTree = "<group>"; };
+		CE200AB01CF5D2D900B23601 /* angry.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = angry.gif; sourceTree = "<group>"; };
+		CE200AB61CF5DA0300B23601 /* UIImage+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
+		CE200AB81CF5F06800B23601 /* KDCircularProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KDCircularProgress.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,9 +106,13 @@
 			isa = PBXGroup;
 			children = (
 				CE200A801CF5A66700B23601 /* AppDelegate.swift */,
+				CE200AB81CF5F06800B23601 /* KDCircularProgress.swift */,
+				CE200AB61CF5DA0300B23601 /* UIImage+Gif.swift */,
 				CE200A821CF5A66700B23601 /* ViewController.swift */,
 				CE200A841CF5A66700B23601 /* Main.storyboard */,
 				CE200A871CF5A66700B23601 /* Assets.xcassets */,
+				CE200AB01CF5D2D900B23601 /* angry.gif */,
+				CE200AAE1CF5D2D100B23601 /* badass.gif */,
 				CE200A891CF5A66700B23601 /* LaunchScreen.storyboard */,
 				CE200A8C1CF5A66700B23601 /* Info.plist */,
 			);
@@ -229,9 +241,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE200AAF1CF5D2D100B23601 /* badass.gif in Resources */,
 				CE200A8B1CF5A66700B23601 /* LaunchScreen.storyboard in Resources */,
 				CE200A881CF5A66700B23601 /* Assets.xcassets in Resources */,
 				CE200A861CF5A66700B23601 /* Main.storyboard in Resources */,
+				CE200AB11CF5D2D900B23601 /* angry.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +270,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE200AB91CF5F06800B23601 /* KDCircularProgress.swift in Sources */,
+				CE200AB71CF5DA0400B23601 /* UIImage+Gif.swift in Sources */,
 				CE200A831CF5A66700B23601 /* ViewController.swift in Sources */,
 				CE200A811CF5A66700B23601 /* AppDelegate.swift in Sources */,
 			);
